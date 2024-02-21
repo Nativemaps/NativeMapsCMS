@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "light_mode_uis",
+  "info": {
+    "singularName": "light-mode-ui",
+    "pluralName": "light-mode-uis",
+    "displayName": "light-mode-ui"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LightModeUI": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

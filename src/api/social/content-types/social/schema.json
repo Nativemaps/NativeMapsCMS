@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "socials",
+  "info": {
+    "singularName": "social",
+    "pluralName": "socials",
+    "displayName": "social",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "discord": {
+      "type": "text"
+    },
+    "facebook": {
+      "type": "text"
+    },
+    "twitter": {
+      "type": "text"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "website_name": {
+      "type": "text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dark_mode_uis",
+  "info": {
+    "singularName": "dark-mode-ui",
+    "pluralName": "dark-mode-uis",
+    "displayName": "dark-mode-ui"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DarkModeUI": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

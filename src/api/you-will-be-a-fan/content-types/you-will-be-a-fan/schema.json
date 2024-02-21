@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "you_will_be_a_fans",
+  "info": {
+    "singularName": "you-will-be-a-fan",
+    "pluralName": "you-will-be-a-fans",
+    "displayName": "Feature Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
